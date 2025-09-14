@@ -133,10 +133,10 @@ The app is designed for easy customization:
 uv sync --dev
 
 # Run with auto-reload
-uv run streamlit run itra_gateway_app.py --server.runOnSave true
+uv run streamlit run streamlit_itra_app.py --server.runOnSave true
 
 # Code formatting
-uv run black itra_gateway_app.py
+uv run black streamlit_itra_app.py
 
 # Testing
 uv run pytest tests/
@@ -149,7 +149,7 @@ uv run pytest tests/
 4. Update help text and examples
 
 ### Deployment Options
-- **Local**: `uv run streamlit run itra_gateway_app.py`
+- **Local**: `uv run streamlit run streamlit_itra_app.py`
 - **Cloud**: Streamlit Cloud, Heroku, AWS, GCP, Azure
 - **Container**: Docker with uv base image
 - **Enterprise**: Behind corporate firewall with authentication
